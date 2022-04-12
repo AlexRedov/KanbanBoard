@@ -12,8 +12,8 @@ const TaskContainer = ({ title, children, tasksToChoose, addTaskTo }) => {
           <ul className="tasks">
             {children.map((task) => {
               return (
-                <Link className="task" to={`tasks/${task.id}`}>
-                  <li key={task.id}>{task.name}</li>
+                <Link key={task.id} className="task" to={`tasks/${task.id}`}>
+                  <li>{task.name}</li>
                 </Link>
               );
             })}

@@ -402,6 +402,7 @@ body {
 }
 
       /* Responsive */
+
 @media all and (max-width: 1200px) {
   body {
     min-height: auto;
@@ -423,10 +424,10 @@ body {
     display: none;
   }
 
-  .user-menu__dropdown {
+  /* .user-menu__dropdown {
     position: static;
     margin-top: 10px;
-  }
+  } */
 
   .main {
     height: auto;
